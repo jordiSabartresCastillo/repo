@@ -45,6 +45,14 @@ public class Cercle{
     }
 
     @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 59 * hash + Float.floatToIntBits(this.x);
+        hash = 59 * hash + Float.floatToIntBits(this.y);
+        return hash;
+    }
+
+    @Override
     public String toString() {
         return "Cercle{" + "x=" + x + ", y=" + y + '}';
     }
