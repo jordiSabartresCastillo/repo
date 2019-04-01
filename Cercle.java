@@ -77,5 +77,8 @@ public class Cercle{
     public void setY(float y) {
         this.y = y;
     }
+    public static void main(String[] args) {
+    Cercle cercle = new Cercle(1,2);
+    }
 }
 
