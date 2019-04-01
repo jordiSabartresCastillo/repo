@@ -56,10 +56,26 @@ public class Cercle{
  x=xx;
  y=yy;
  }
+
+    public float getX() {
+        return x;
+    }
+
+    public float getY() {
+        return y;
+    }
  
  public Cercle(Cercle cercle){
      this.x = cercle.x;
      this.y = cercle.y;
  }
+
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public void setY(float y) {
+        this.y = y;
+    }
 }
 
